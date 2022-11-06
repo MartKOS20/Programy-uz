@@ -1,0 +1,158 @@
+\documentclass[a4paper]{article}
+\usepackage[left=1.5 cm, right=2.5 cm, top=2.5 cm, bottom=1.5 cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{caption}
+\title{Martin Kosiński}
+\author{Martin Kosiński}
+\makeatletter
+\newcommand{\linia}{\rule{\linewidth}{0.4mm}}
+\renewcommand{\maketitle}{\begin{titlepage}
+    \vspace*{1cm}
+    \begin{center}\small
+   Praca na lekcji\\
+    Ćwiczenia\\
+    Programy użytkowe
+    \end{center}
+    \vspace{3cm}
+    \noindent\linia
+    \begin{center}
+      \LARGE \textsc{\@title}
+         \end{center}
+     \linia
+    \vspace{0.5cm}
+    \begin{flushright}
+    \begin{minipage}{5cm}
+    \textit{\small Autor:}\\
+    \normalsize \textsc{\@author} \par
+    \end{minipage}
+     \end{flushright}
+    \vspace*{\stretch{6}}
+    \begin{center}
+    \@date
+    \end{center}
+  \end{titlepage}%
+}
+\makeatother
+\begin{document}
+\maketitle
+\begin{center}
+
+
+\begin{table}[h]
+\centering\caption{tabela testowa zadanie 1 }
+
+\begin{tabular}{|c| c c c }
+\hline
+Pacjent & Ból brzucha & temperatura ciała & Operacja\\
+\hline
+u1 & Mocny & Wysoka & TAK\\
+u2 & Średni & Wysoka & TAK\\
+u3 & Mocny & Średnia & TAK\\
+u4 & MOcny & Niska & TAK\\
+u5 & Średni & Średnia & TAK\\
+u6 & Średni & Średnia & Nie\\
+u7 & Mały & Wysoka & Nie\\
+u8 & Mały & Niska & Nie\\
+u9 & Mocny & Niska & Nie\\
+u10 & Mały & Średnia & Nie\\
+\hline
+
+
+
+\end{tabular}
+
+\end{table}
+\begin{table}[h]
+\centering\caption{Bramki logiczne zadanie 2 }
+
+\begin{tabular}{|c|c|c|c|c|c| }
+\hline
+NOT & AND & NAND & OR & NOR & XOR\\
+\hline
+ \begin{tabular}{|c|c| }
+ \hline
+ A&Y\\
+ \hline
+ 0&1\\
+ \hline
+ 1&0\\
+ \hline
+\end{tabular} & \begin{tabular}{|c|c|c| }
+ \hline
+ A&B&Y\\
+ \hline
+ 0&0&0\\
+ \hline
+ 0&1&0\\
+ \hline
+ 1&0&0\\
+ \hline
+ 1&1&1\\
+ \hline
+\end{tabular} & \begin{tabular}{|c|c|c| }
+ \hline
+ A&B&Y\\
+ \hline
+ 0&0&1\\
+ \hline
+ 0&1&1\\
+ \hline
+ 1&0&1\\
+ \hline
+ 1&1&0\\
+ \hline
+\end{tabular} & \begin{tabular}{|c|c|c| }
+ \hline
+ A&B&Y\\
+ \hline
+ 0&0&0\\
+ \hline
+ 0&1&1\\
+ \hline
+ 1&0&1\\
+ \hline
+ 1&1&1\\
+ \hline
+\end{tabular}&\begin{tabular}{|c|c|c| }
+ \hline
+ A&B&Y\\
+ \hline
+ 0&0&1\\
+ \hline
+ 0&1&0\\
+ \hline
+ 1&0&0\\
+ \hline
+ 1&1&0\\
+ \hline
+\end{tabular}&\begin{tabular}{|c|c|c| }
+ \hline
+ A&B&Y\\
+ \hline
+ 0&0&1\\
+ \hline
+ 0&1&0\\
+ \hline
+ 1&0&0\\
+ \hline
+ 1&1&0\\
+ \hline
+\end{tabular}\\
+
+\hline
+
+
+
+\end{tabular}
+\end{table}
+
+
+
+\end{center}
+\end{document}
